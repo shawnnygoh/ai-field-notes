@@ -54,6 +54,12 @@ A repository to consolidate my explorations and learnings in the field of artifi
 - [Context Engineering 2.0: The Context of Context Engineering
 ](https://github.com/GAIR-NLP/Context-Engineering-2.0)
 - [Context Engineering Guide](https://www.promptingguide.ai/guides/context-engineering-guide)
+- [Context Engineering for AI Agents: Lessons from Building Manus](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus)
+
+### Model Context Protocol (MCP)
+- [Model Context Protocol](https://modelcontextprotocol.io/)
+- [Code Mode: the better way to use MCP](https://blog.cloudflare.com/code-mode/)
+- [Unix-style CLI commands](https://www.reddit.com/r/LocalLLaMA/comments/1rrisqn/i_was_backend_lead_at_manus_after_building_agents/)
 
 
 ## Mechanistic Interpretability
