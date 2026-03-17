@@ -1,19 +1,41 @@
 # ai-field-notes
+
 A repository to consolidate my explorations and learnings in the field of artificial intelligence.
 
 ## Fundamentals
 
+- [ ] **CNN:** [Backpropagation Applied to Handwritten Zip Code Recognition](https://github.com/karpathy/lecun1989-repro)
+- [ ] **AlexNet:** [ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html)
 - [ ] **Transformer Architecture:** [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
-
 
 ## Training
 
 ### Pretraining
 
+- [The Ultra-Scale Playbook: Training LLMs on GPU Clusters](https://huggingface.co/spaces/nanotron/ultrascale-playbook)
+
+#### Training Frameworks
+
 - [Transformer Engine](https://github.com/NVIDIA/TransformerEngine)
 - [Megatron-LM](https://github.com/NVIDIA/Megatron-LM)
 - [Megatron Bridge](https://github.com/NVIDIA-NeMo/Megatron-Bridge)
-- [The Ultra-Scale Playbook: Training LLMs on GPU Clusters](https://huggingface.co/spaces/nanotron/ultrascale-playbook)
+- [DeepSpeed](https://github.com/deepspeedai/DeepSpeed)
+
+#### Distributed Training & 5D Parallelism
+
+- [ ] **Tensor Parallelism (TP)**
+- [ ] **Sequence/Context Parallelism (SP/CP)**
+- [ ] **Expert Parallelism (EP)**
+    - [Mixtral of Experts](https://arxiv.org/abs/2401.04088)
+- [ ] **Pipeline Parallelism (PP)**
+    - [DualPipe](https://github.com/deepseek-ai/DualPipe)
+- [ ] **Data Parallelism (DP)**
+    - [ ] Fully Sharded Data Parallelism (FSDP)
+    - [ ] Zero Redundancy Optimizer (ZeRO)
+
+#### Kernels & Compute
+
+- [DeepGEMM](https://github.com/deepseek-ai/DeepGEMM)
 
 ### Post-training
 
@@ -25,7 +47,6 @@ A repository to consolidate my explorations and learnings in the field of artifi
     - [ ] Proximal Policy Optimization (PPO)
     - [ ] Group Relative Policy Optimization (GRPO)
     - [ ] Direct Preference Optimization (DPO)
-
 
 ## Inference
 
@@ -39,28 +60,37 @@ A repository to consolidate my explorations and learnings in the field of artifi
 
 - [vLLM](https://github.com/vllm-project/vllm)
 
-
 ## Agentic AI
 
 ### Prompt Engineering
+
 - [Prompt Engineering Guide](https://www.promptingguide.ai/)
 
 ### Retrieval Augmented Generation (RAG)
+
 - [RAG Techniques](https://github.com/NirDiamant/rag_techniques)
 
 ### Context Engineering
+
 - [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
 - [Context Engineering](https://github.com/davidkimai/Context-Engineering)
-- [Context Engineering 2.0: The Context of Context Engineering
-](https://github.com/GAIR-NLP/Context-Engineering-2.0)
+- [Context Engineering 2.0: The Context of Context Engineering](https://github.com/GAIR-NLP/Context-Engineering-2.0)
 - [Context Engineering Guide](https://www.promptingguide.ai/guides/context-engineering-guide)
 - [Context Engineering for AI Agents: Lessons from Building Manus](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus)
 
 ### Model Context Protocol (MCP)
+
 - [Model Context Protocol](https://modelcontextprotocol.io/)
 - [Code Mode: the better way to use MCP](https://blog.cloudflare.com/code-mode/)
 - [Unix-style CLI commands](https://www.reddit.com/r/LocalLLaMA/comments/1rrisqn/i_was_backend_lead_at_manus_after_building_agents/)
 
+### Agent Frameworks
+
+- [OpenClaw](https://github.com/openclaw/openclaw)
+- [nanobot](https://github.com/HKUDS/nanobot)
+- [PicoClaw](https://github.com/sipeed/picoclaw)
+- [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)
+- [NemoClaw](https://github.com/NVIDIA/NemoClaw)
 
 ## Mechanistic Interpretability
 
@@ -70,7 +100,6 @@ A repository to consolidate my explorations and learnings in the field of artifi
 - [SAELens](https://github.com/decoderesearch/SAELens)
 - [Towards Monosemanticity: Decomposing Language Models With Dictionary Learning](https://transformer-circuits.pub/2023/monosemantic-features)
 - [Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet](https://transformer-circuits.pub/2024/scaling-monosemanticity/)
-
 
 ## Explorations
 
