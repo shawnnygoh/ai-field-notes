@@ -108,6 +108,7 @@ A repository to consolidate my explorations and learnings in the field of artifi
 - [ ] **Linear Attention:** [Kimi-Linear](https://github.com/MoonshotAI/Kimi-Linear)
 - [ ] **Sparse Attention:** [Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention](https://arxiv.org/abs/2502.11089)
 - [ ] **Compressed Attention (MLA):** [FlashMLA](https://github.com/deepseek-ai/FlashMLA), [DeepSeek-V2](https://github.com/deepseek-ai/DeepSeek-V2)
+- [ ] **Attention Residuals:** [Attention-Residuals](https://github.com/MoonshotAI/Attention-Residuals)
 - [ ] **State Space Models (SSM):** [Mamba](https://github.com/state-spaces/mamba)
 - [ ] **Joint Embedding Predictive Architecture (JEPA):** [JEPA](https://github.com/facebookresearch/jepa), [I-JEPA](https://github.com/facebookresearch/ijepa)
 - [ ] **Ouro:** [Scaling Latent Reasoning via Looped Language Models](https://ouro-llm.github.io/)
